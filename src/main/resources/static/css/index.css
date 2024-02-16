@@ -1,0 +1,54 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://img.freepik.com/free-photo/abstract-watercolor-guitar-exploding-with-colorful-motion-generated-by-ai_188544-19725.jpg?w=1060&t=st=1708075067~exp=1708075667~hmac=e8da65fea172bff38f691ffc161868c8372abf2a7eab115b27ea00db93c39045");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.nav-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul li,
+ul li a {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+li a {
+  border: 3px solid black;
+  padding: 5px;
+  margin: 5px;
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+  font-weight: bolder;
+  transition: all 1s;
+  width: 200px;
+  text-align: center;
+}
+
+li a:hover {
+  border: 3px solid rgba(254, 3, 3, 0.974);
+  background-color: black;
+  color: whitesmoke;
+}

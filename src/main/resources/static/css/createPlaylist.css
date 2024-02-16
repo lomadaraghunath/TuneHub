@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgreen;
+}
+
+header {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  margin-bottom: 20px;
+}
+section {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: lightslategray;
+  padding: 10px;
+}
+
+div.field {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+div.field input {
+  width: 40%;
+  height: 30px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+div.field input[type="checkbox"] {
+	width:5%;
+  height: auto;
+}
+
+div.field input[type="submit"] {
+  width: 30%;
+  background-color: black;
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 0;
+  transition: all 1s;
+}
+
+div.field input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+h3 {
+  font-weight: bold;
+  text-align: center;
+}

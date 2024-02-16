@@ -1,0 +1,76 @@
+@charset "ISO-8859-1";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://media.istockphoto.com/id/1446743599/photo/music-sheet-photography-made-with-colored-filters-in-the-flash.webp?b=1&s=170667a&w=0&k=20&c=BESkC6ETojEgZ2vkmEQPqOhg33Cd2-jQPCdHBRz1aVk=");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-weight: bolder;
+  text-align: center;
+  color: orange;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  flex: 0 0 50%;
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+input {
+  display: block;
+  width: 50%;
+  margin-bottom: 10px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+input[type="radio"] {
+  display: inline;
+  width: auto;
+  margin: 0 10px 0 5px;
+  height: auto;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: #fff;
+  font-weight: bolder;
+  transition: all 1s;
+}
+
+input[type="submit"]:hover {
+  background-color: white;
+  color: black;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+textarea {
+  display: block;
+  margin-bottom: 10px;
+}
